@@ -1,16 +1,16 @@
 
 import './App.css';
-import Home from './components/Home';
-import Contact from './contact/Contact';
-import Service from './components/Service';
 import About from './components/about/About';
+import ExoProps from './components/ExoProps';
+import UseStateHooks from './components/UseStateHooks';
+import ExoState from './components/ExoState';
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <Contact/>
-      <Service/>
       <About name={"Manel"} age={19}/>
+      <ExoProps mod1={18} mod2={17}/>
+      <UseStateHooks/>
+      <ExoState/>
     </div>
   );
 }

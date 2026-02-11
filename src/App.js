@@ -4,6 +4,7 @@ import About from './components/about/About';
 import ExoProps from './components/ExoProps';
 import UseStateHooks from './components/UseStateHooks';
 import ExoState from './components/ExoState';
+import Effect from './components/Effect';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <ExoProps mod1={18} mod2={17}/>
       <UseStateHooks/>
       <ExoState/>
+      <Effect/>
     </div>
   );
 }
